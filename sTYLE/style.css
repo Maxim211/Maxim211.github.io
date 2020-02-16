@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* 
+  Сетка
+*/
+*,*:before,*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+width: 960px;
+padding:22px 30px 22px 30px;
+margin:0 auto;
+}
+
+.col-1-3 {
+  display:inline-block;
+  float:left;
+  width: 33.33%
+}
+
+/*
+Clearfix
+*/
+.group:before,.group:after {
+  content:"";
+  display:table;
+}
+
+.group:after {
+  clear:both;
+}
+
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*
+Заголовок
+*/
+.logo a {
+  border-left: 4px solid #00484FFF;
+  text-transform: none;
+  font-weight:100;
+  padding: 40px 22px 22px 22px;
+  margin-bottom: 20px; 
+}
+.logo {
+  display:inline-block;
+  text-align: left;
+}
+header {
+  width: 100%;
+  text-align: center;
+  border-bottom: 4px solid #00484FFF;
+}
+header a {
+  cursor: pointed;
+}
+/*
+Подвал
+*/
+.primary-footer small {
+float:left;
+margin-left:10px;
+}
+
+.primary-footer {
+  text-align: center;
+  border-top:4px solid #00484FFF;
+  width: 100%;
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+/*
+Типографика
+*/
+* {
+  font: 16px/20px "Slabo 27px", sans-serif;
+  margin-top:7px;
+  margin-bottom:7px;
+  cursor: default;
+  color:#00484FFF;
+}
+
+h2,h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin:22px;
+}
+
+h2 {
+  font-size: 33px;
+}
+h4 {
+  font-size: 20px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight:600;
+  cursor: pointer;
+  color:#FF0D00;
+}
+
+a:hover {
+  color:#FF5047;
+}
+small {
+  font-size:12px;
+}
+img {
+  width:400px;
+}
+section a {
+  text-transform:none;
+  cursor:pointer;
+}
+/*
+Фон
+*/
+body {
+  background:#0099aa;
+}
+.hea {
+text-align: center;
+background:#fff;
+display:inline-block;
+width: 100%;
+height: auto;
+padding:22px 30px 22px 30px;
+margin:0 auto;
+}
+/*
+Навигация
+*/
+nav {
+  display:inline-block;
+  text-align: right;
+}
