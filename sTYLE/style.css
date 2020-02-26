@@ -91,7 +91,6 @@ Clearfix
 Заголовок
 */
 .logo a {
-  border-left: 4px solid #00484FFF;
   text-transform: none;
   font-weight:100;
   padding: 40px 22px 22px 22px;
@@ -114,7 +113,6 @@ header a {
 */
 .primary-footer {
   text-align: center;
-  border-top:4px solid #00484FFF;
   width: 100%;
   padding-bottom: 44px;
   padding-top: 44px;
